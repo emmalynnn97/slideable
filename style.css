@@ -1,0 +1,27 @@
+.slideable{
+	position:relative;
+	left:0;
+	right:0;
+	transition:.45s ease-in;
+ 	opacity:1;
+}
+.slideable-left{
+	left:-100%;
+	opacity:0;
+}
+.slideable-right{
+	left:100%;
+	opacity:0;
+}
+.row{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width:100%;
+    margin-bottom:1em;
+}
+.col{
+    height:50vh;
+    width:45%;
+    background:pink;
+}
