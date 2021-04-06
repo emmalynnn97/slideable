@@ -6,11 +6,11 @@
  	opacity:1;
 }
 .slideable-left{
-	left:-100%;
+	transform:translateX(-100vw);
 	opacity:0;
 }
 .slideable-right{
-	left:100%;
+	transform:translateX(100vw);
 	opacity:0;
 }
 .row{
